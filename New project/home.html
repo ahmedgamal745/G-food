@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>G-Food</title>
+</head>
+<body>
+             <!----------------  header  ----------------->
+        <header>
+            <nav id="navbar">
+                <div class="menu">
+                    <div>
+                        
+                        <ul>
+                            <li><a href="menu.html">Food</a></li>
+                            <li><a href="menu.html">Menus</a></li>
+                            <li><a href="menu.html">Drinks</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="about.html">about</a></li>
+                            <li><a href="menu.html">menu</a></li>
+                            <li><a href="cart.html">orders</a></li>
+                            <li><a href="contacts.html">contacts</a></li>
+                        </ul>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+    
+                        </ul>
+                        <form>
+                            <div class="input-wrap">
+                                <input type="search" placeholder="Search...">
+                                <button type="submit"><i class="fa-solid fa-magnifying-glass px-2"></i></button>
+                            </div> 
+                                
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="containerz">
+                    <a href="home.html" class="brand">G-Food </a>
+                    <div class="container-inner">
+                        
+                        <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="contacts.html">contacts</a></li> 
+                        </ul>
+                        
+                        <div><a href=""><i class="fa-solid fa-magnifying-glass px-4"></i></a></div>
+                        
+                        
+                    </div>
+                    <div class="shopping-cart px-5"><div class="sum-prices"><a ><i class="fas fa-shopping-cart shoppingCartButton " ></i></a><h6 id="sum-prices"></h6></div></div>
+                    <div id="menu-btn" class="fas fa-bars"></div>
+                </div>
+                
+                <div class="producstOnCart hide " >
+                    <div class="overlay"></div>
+                    <div class="top">
+                        <button id="closeButton">
+                            <i class="fas fa-times-circle"></i>
+                        </button>
+                        <h3>Cart</h3>
+                    </div>
+                    <ul id="buyItems">
+                        <h4 class="empty">Your shopping cart is empty</h4>
+                         <!-- <li class="buyItem">
+                            <img src="homeimg/burger-1.png">
+                            <div>
+                                <h5>Products Name</h5>
+                                <h6>$199</h6>
+                                <div>
+                                    <button>-</button>
+                                    <span class="countOfProduct">1</span>
+                                    <button>+</button>
+                                </div>
+                            </div>
+                        </li>  -->
+                    </ul>
+                    <a href="cart.html"><button class="btn checkout hidden">Check out</button></a>
+                </div>
+            </nav>
+        </header>
+
+            <!----------------  home  ----------------->
+     <section class="home bg-warning d-block ">
+        
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center">
+                            <div class="">
+                                <h4 class="disabled d-flex justify-content-center" >order online</h4>
+                                <h1 class=>Delicious Pizza</h1>
+                                <a href="menu.html"><div class="d-flex justify-content-center py-2"><button type="button" class="px-3 btn btn-warning">See Menus</button></div></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6  ">
+                            <img src="homeimg/home-img-1.png" class=" w-100  " alt="...">
+                        </div>
+
+                        
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6  d-flex justify-content-center align-items-center">
+                            <div class="">
+                                <h4 class="disabled d-flex justify-content-center">order online</h4>
+                                <h1 class=>Double Hamburger</h1>
+                                <a href="menu.html"><div class="d-flex justify-content-center py-2"><button type="button" class="px-3 btn btn-warning">See Menus</button></div></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="homeimg/home-img-2.png" class="d-block w-100 " alt="...">
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center">
+                            <div class=>
+                                <h4 class="disabled d-flex justify-content-center">order online</h4>
+                                <h1 class=>Pizza Margereta</h1>
+                                <a href="menu.html">
+                                    <div class="d-flex justify-content-center py-2"><button type="button" class="px-3 btn btn-warning">See Menus</button></div></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="homeimg/home-img-1q.png" class="d-block w-100 " alt="...">
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center">
+                            <div >
+                                <h4 class="disabled d-flex justify-content-center" >order online</h4>
+                                <h1 class=>roasted chicken</h1>
+                                <a href="menu.html"><div class="d-flex justify-content-center py-2"><button type="button" class="px-3 btn btn-warning">See Menus</button></div></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6  ">
+                            <img src="homeimg/home-img-3.png" class=" w-100  " alt="...">
+                        </div>
+
+                        
+                    </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+     </section> 
+    
+            <!----------------  category  ----------------->
+  
+    <section class="bg-light py-5">
+        <h1 class="title d-flex justify-content-center ">FOOD CATEGORY</h1>
+            <div class="container ">
+                <div class="row tabs d-flex justify-content-center m-2 py-3">
+                    <div class="col-md-2  active btn  btn btn-outline-dark border border-dark px-3 m-2" data-cont=".category-1">
+                        
+                        <div class=" d-flex justify-content-center">
+                            <img src="homeimg/cat-1.png" class="w-100">    
+                        </div>
+                        <h3 class="d-flex justify-content-center">G-Fast Food</h3>
+                        
+                    </div>
+                    <div class="col-md-2  btn  btn btn-outline-dark border border-dark px-3 m-2" data-cont=".category-2">
+                        
+                        <div class=" d-flex justify-content-center">
+                            <img src="homeimg/cat-2.png" class="w-100">    
+                        </div>
+                        <h3 class="d-flex justify-content-center">main dishes</h3>
+                     
+                    </div>
+                    <div class="col-md-2  btn  btn btn-outline-dark border border-dark px-3 m-2" data-cont=".category-3">
+                        
+                        <div class=" d-flex justify-content-center">
+                            <img src="homeimg/cat-3.png" class="w-100">    
+                        </div>
+                        <h3 class="d-flex justify-content-center">G-Food drinks</h3>
+                     
+                    </div>
+                    <div class="col-md-2  btn  btn btn-outline-dark border border-dark px-3 m-2" data-cont=".category-4">
+                        
+                        <div class=" d-flex justify-content-center">
+                            <img src="homeimg/cat-4.png" class="w-100">    
+                        </div>
+                        <h3 class="d-flex justify-content-center">G-Food dessert</h3>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="content ">
+                <div class="container category-1" >
+                    <div class="row  d-flex justify-content-between py-3">
+                        <div class="col-md-3 card col-sm-12">
+                           
+                                <div class="img px-3 m-2"><img src="homeimg/home-img-1.png" class="w-100"></div>
+                                <div class="description">
+                                    <h2 class="price">25</h2>
+                                    <h3 class="productName">Mountain Morning</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                    
+                                    <a ><button type="button" class="btn btn-danger addToCart" data-product-id="1">add to card</button></a>
+                                    <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                    
+                                </div>
+                            
+                        </div>
+                        
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/home-img-2.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="2">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/pizza-1.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="3">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-between py-3">
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/pizza-2.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="4">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/pizza-3.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="5">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 border card">
+                            <div class="img"><img src="homeimg/pizza-4.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="6">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-between py-3">
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/pizza-5.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="7">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/burger-1.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="8">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/burger-2.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="9">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container category-2 ">
+                    <div class="row  d-flex justify-content-between py-3">
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/dish-1.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="10">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/dish-2.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="11">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/home-img-3.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="12">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-between py-3">
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/dish-3.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="13">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/dish-4.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="14">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/dish-3.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="15">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-between py-3">
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/dish-4.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="16">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/dish-1.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="17">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/home-img-3.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="18">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container category-3 ">
+                    <div class="row  d-flex justify-content-between py-3">
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/drink-1.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="19">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/drink-2.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="20">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3  card">
+                            <div class="img"><img src="homeimg/drink-3.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="21">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-between py-3">
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/drink-4.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="22">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/drink-5.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="23">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/drink-1.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="24">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-between py-3">
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/drink-3.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="25">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/drink-2.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="26">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/drink-5.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="27">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="container category-4 ">
+                    <div class="row  d-flex justify-content-between py-3">
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/dessert-1.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="28">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/dessert-2.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="29">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/dessert-3.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="30">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-between py-3">
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/dessert-4.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="31">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/dessert-5.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="32">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/dessert-6.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="33">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-between py-3">
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/dessert-1.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="34">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/dessert-3.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="35">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 card">
+                            <div class="img"><img src="homeimg/dessert-5.png" class="w-100"></div>
+                            <div class="description">
+                                <h2 class="price">25</h2>
+                                <h3 class="productName">Mountain Morning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                
+                                <a ><button type="button" class="btn btn-danger addToCart" data-product-id="36">add to card</button></a>
+                                <a ><button type="button" class="btn btn-warning w-100">about info</button></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+    </section> 
+    
+    <footer>
+        <section>
+            <div class="container ">
+                <div class="row  d-flex justify-content-center m-2 py-3">
+                    <div class="col-md-2  btn  btn btn-outline-dark border border-dark px-3 m-2" >
+                        
+                        <div class=" d-flex justify-content-center">
+                            <img src="homeimg/email-icon.png" class="w-100">    
+                        </div>
+                        <div class="font">
+                            <h3>our email</h3>
+                            <a href="mailto:agamal.c180@gmail.com">agamal.c180@gmail.com</a>
+                            <a href="mailto:ahmed@gmail.com">ahmed@gmail.com</a>
+                        </div>
+                     
+                    </div>
+                    <div class="col-md-2  btn  btn btn-outline-dark border border-dark px-3 m-2" >
+                        
+                        <div class=" d-flex justify-content-center">
+                            <img src="homeimg/clock-icon.png" class="w-100">    
+                        </div>
+                        <div class="font">
+                            
+                                <h3>opening hours</h3>
+                                <p>00:07am to 00:10pm </p>
+                        </div>
+                     
+                    </div>
+                    <div class="col-md-2  btn  btn btn-outline-dark border border-dark px-3 m-2" >
+                        
+                        <div class=" d-flex justify-content-center">
+                            <img src="homeimg/map-icon.png" class="w-100">    
+                        </div>
+                        <div class="font">
+                            <h3>our address</h3>
+                            <a href="https://www.google.com/maps">Alexandria, egypt - 111111</a>
+                        </div>
+                     
+                    </div>
+                    <div class="col-md-2  btn  btn btn-outline-dark border border-dark px-3 m-2" >
+                        
+                        <div class=" d-flex justify-content-center">
+                            <img src="homeimg/phone-icon.png" class="w-100">    
+                        </div>
+                        <div class="font">
+                            <h3>our number</h3>
+                            <a href="tel:1234567890">+123-456-7890</a>
+                            <a href="tel:1112223333">+111-222-3333</a>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+        </section>                  
+        <div class="credit bg-warning px-5 py-5">&copy; copyright @ 2022 by <span>AHMED GAMAL</span> | all rights reserved!</div>
+    </footer>
+                                
+    
+            
+    <div class="loader">
+        <img src="homeimg/loader.gif" alt="">
+     </div>
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
